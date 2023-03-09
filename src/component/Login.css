@@ -1,0 +1,177 @@
+.loginLogo{
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  margin: auto;
+}
+.signIn__Container{
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
+}
+.logIn__Content{
+  border: 1px solid #0e0e0e;
+  border-radius: 5px;
+  padding: 20px;
+  height: 350px;
+}
+.logIn__Content label{
+  font-size: 13px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logIn__Content input {
+  width: 300px;
+  outline: none;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.btnLoginContinue {
+  border: none;
+  outline: none;
+  font-size: 13px;
+  font-weight: 600;
+  width: 300px;
+  background-color: #f5d485;
+}
+.logIn__Content p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-top: 10px;
+}
+.logIn__Content a{
+  text-decoration: none;
+  font-style: 12px;
+}
+span a{
+  font-size: 12px;
+  font-weight: 600;
+
+}
+.new__reg{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+h6{
+  font-size: 12px;
+  color: #898989;
+}
+.btnCreateAccount {
+  width: 340px;
+  border: 1px solid grey;
+  outline: none;
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.logIn__Content p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-top: 10px;
+}
+.logIn__Content a{
+  text-decoration: none;
+  font-style: 12px;
+}
+span a{
+  font-size: 12px;
+  font-weight: 600;
+
+}
+.new__reg{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+h6{
+  font-size: 12px;
+  color: #898989;
+}
+.logInFooter {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 25px;
+  border: 1px solid #898989;
+  border-right: none;
+  border-left: none;
+  margin-top: 50px;
+}
+.logInFooter a{
+  display: flex;
+  text-decoration: none;
+  color: rgb(46, 46, 196);
+  font-size: 11px;
+  cursor: pointer;
+}
+.logInFooter p{
+  font-size: 11px;
+}
+.logContent {
+  line-height: 0;
+}
+
+/* registration */
+.registration__Container{
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
+}
+.registration__Content{
+  border: 1px solid #0e0e0e;
+  border-radius: 5px;
+  padding: 20px;
+}
+.registration__Content label{
+  font-size: 13px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.registration__Content input {
+  width: 300px;
+  outline: none;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.registration__Content p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-top: 10px;
+}
+.registration__Content a{
+  text-decoration: none;
+  font-style: 12px;
+}
+.passwordAlert{
+  font-size: 11px;
+  font-weight: 500;
+  margin-top: -9px;
+}
+.btnRegistration {
+  border: none;
+  outline: none;
+  font-size: 13px;
+  font-weight: 600;
+  width: 300px;
+  background-color: #f5d485;
+}
+.Registration__Content p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-top: 10px;
+}
+.Registration__Content a{
+  text-decoration: none;
+  font-style: 12px;
+}

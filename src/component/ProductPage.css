@@ -1,0 +1,88 @@
+.ProductPage__Container{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  align-items: center;
+  background-color: #f7f8f7;
+}
+.ProductPage__Container img{
+  width: 70px;
+  height: 50px;
+}.ProductPage__Container p{
+  font-size: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}.ProductPage__Content a{
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 700;
+  padding-left: 15px;
+}
+.ProductPage{
+  display: flex;
+  margin-top: 30px;
+}
+.ProductPage__small__Image{
+  gap: 10px;
+  margin: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+
+}
+.ProductPage__small__Image img{
+  width: 40px;
+  height: 30px;
+  /* border: 1px solid rgb(159, 155, 155); */
+}
+.ProductPage__mainImage {
+  width: 40%;
+  height: 100px;
+  background-size: contain;
+}
+.ProductPage__mainImage img {
+  width: 100%;
+  background-size: contain;
+  height: 450px;
+  padding: 15px;
+}
+.ProductPage__Description {
+  width: 30%;
+  padding: 20px;
+}
+.ProductPage__MiniView{
+  align-items: center;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+.ProductPage__MiniView img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-size: contain;
+  height: 70px;
+  box-shadow:  0 5px 3px -3px rgb(177, 170, 170);
+}
+.ProductPage__ulStyle{
+  display: block;
+  gap: 20px;
+  line-height: 20px;
+  font-size: 13px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  text-decoration: dotted;
+}
+.addTo__Cart {
+  width: 20%;
+  border: 1px solid rgb(182, 167, 167);
+  padding: 10px;
+  height: 400px;
+  margin-right: 10px;
+}
+.btn__addToCart {
+  margin: 10px;
+  padding: 10px;
+}

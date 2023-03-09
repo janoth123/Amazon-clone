@@ -1,0 +1,52 @@
+.p-content{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 25px;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url('https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/4k/original/14.jpg?3');
+}
+.u_cnt{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url('https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/4k/original/14.jpg?3');
+  background-size: contain;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  margin: auto;
+  gap: 10px;
+}
+.u_container{
+  width: 90%;
+  background-color: #fff;
+  height: 430px;
+  margin: 10px auto;
+  line-height: 10px;
+}
+.u_container img{
+  width: 100%;
+  background-size: contain;
+  height: 200px;
+  padding: 10px;
+}
+.u_container p {
+  font-size: 12px;
+  font-weight: 800;
+  color: rgb(97, 97, 97);
+  line-height: 12px;
+  padding-left: 10px;
+}
+.btnDel, .btnEdit {
+  display: flex;
+  gap: 10px;
+  background-color: #3f9ce5;
+  color: #fff;
+  font-size: 12px;
+  padding: 6px;
+  width: 100px;
+  border: none;
+  font-weight: 800;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}

@@ -1,0 +1,16 @@
+.admin__Nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: monospace;
+  font-weight: 800;
+  /* padding: 10px 0; */
+  cursor: pointer;
+  color: aliceblue;
+  background-color: #3f9ce5;
+  height: 60px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
